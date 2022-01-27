@@ -1,4 +1,3 @@
-import abc
 from tkinter import *
 from math import *
 
@@ -56,15 +55,11 @@ txt3.pack(side=LEFT)
 lb4=Label(aken,text="  =0  ",height=3,width=6,font="Arial 20",fg="green",relief=FLAT)#.pack()
 lb4.pack(side=LEFT)
 
-
 nupp=Button(aken,text="Reshit!",font="Arial 20",width=15,bg="green",fg="black",relief=RAISED)
 nupp.pack(side=LEFT)
 nupp.bind("<Button-1>",kvadr)
 
-##txt.bind("<Return>",vvod)#Enter
-
 lb5=Label(aken,text="Reshenie",height=3,width=40,font="Arial 20",fg="black",bg="yellow",relief="solid")#.pack()
 lb5.place(x=80,y=360)
-#lbl6.pack()
 
 aken.mainloop()
