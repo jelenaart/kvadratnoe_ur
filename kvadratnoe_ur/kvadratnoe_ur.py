@@ -68,7 +68,7 @@ def kvadr():
             txt3.configure(bg="lightblue")
         graf=False
     return graf,D,t
-def graafik():
+def graf():
     if D >= 0:
         x1=-b+sqrt(D)/2*a
         x2=-b-sqrt(D)/2*a
